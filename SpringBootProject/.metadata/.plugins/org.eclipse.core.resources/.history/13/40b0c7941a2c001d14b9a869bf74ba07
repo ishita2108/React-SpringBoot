@@ -1,0 +1,16 @@
+package com.employee.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService {
+	
+	@Autowired
+	private EmployeeService employeeService;
+
+	public EmployeeServiceImpl(EmployeeService employeeService) {
+		this.employeeService = employeeService;
+	}
+
+}

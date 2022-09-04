@@ -1,0 +1,7 @@
+package com.employee.services;
+
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService {
+
+}
